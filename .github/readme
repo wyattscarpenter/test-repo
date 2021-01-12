@@ -1,0 +1,1 @@
+ I used to name all my single-file c programs main.c. Then I wised up and started naming them programname.c. Now, I am even wiser still, and in a stroke of brain-genius I name them readme.c, so that github will automatically display them as a readme 
