@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
-        <iframe src="https://wyattscarpenter.github.io/fullwidth/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <div id="wordcount">0</div><textarea id="wordbox" oninput="wordcount.innerHTML=(wordbox.value.match(/\b\S+/g)||'').length">
     </foreignObject>
 </svg>
